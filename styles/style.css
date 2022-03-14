@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 80%;
+  margin: 50px auto;
+  min-height: 50vh;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  width: 25%;
+  height: 10vh;
+}
